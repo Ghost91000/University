@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600336792 source:r:\ИС2-191-ОБ\Рыченков\Технологии программирования\lab2\labtwotwo\labtwoone\main.cpp
+	<iostream>
+	<math.h>
+
