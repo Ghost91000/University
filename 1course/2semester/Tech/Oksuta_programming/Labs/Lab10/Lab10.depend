@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1590804518 source:c:\users\velichkova\desktop\university\1course\2semester\tech\oksuta_programming\labs\lab10\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+

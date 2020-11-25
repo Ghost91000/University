@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.010,E:\Университет\Информатика\Информатика. Лабы\1\Unit1.h=C:\Users\Daniel\Desktop\Information system\ЛР№1_Брославский Даниэль Ренатович\1.1\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.442,=E:\Университет\Информатика\Информатика. Лабы\1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,E:\Университет\Информатика\Информатика. Лабы\1\Project1PCH1.h=C:\Users\Daniel\Desktop\Information system\ЛР№1_Брославский Даниэль Ренатович\1.1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,E:\Университет\Информатика\Информатика. Лабы\1\Unit1.dfm=C:\Users\Daniel\Desktop\Information system\ЛР№1_Брославский Даниэль Ренатович\1.1\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.915,=E:\Университет\Информатика\Информатика. Лабы\1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,E:\Университет\Информатика\Информатика. Лабы\1\Unit1.cpp=C:\Users\Daniel\Desktop\Information system\ЛР№1_Брославский Даниэль Ренатович\1.1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,E:\Университет\Информатика\Информатика. Лабы\1\Project1.cbproj=C:\Users\Daniel\Desktop\Information system\ЛР№1_Брославский Даниэль Ренатович\1.1\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

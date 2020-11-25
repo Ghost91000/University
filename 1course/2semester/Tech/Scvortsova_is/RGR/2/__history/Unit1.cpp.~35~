@@ -1,0 +1,37 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	int arr[3][3];
+	int n, m;
+	n = 0;
+	m = 0;
+	Label1->Caption = "Введи эл. массива";
+	Button1->Caption = "Добавить";
+	for (int i = 0); i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			StringGrid1->Cells[i][j] = Edit10->Text;
+		}
+	}
+	Label1->Caption = "Главная диагональ";
+	Button1->Caption = "Найти";
+	for (int i = 0; i < 3; i++) {
+		Edit10->Text = Edit10->Text + StringGrid1->Cells[i][i] + "; ";
+	}
+
+}
+//---------------------------------------------------------------------------
