@@ -1,0 +1,27 @@
+RD #0
+WR R0; INDEX
+RD 99
+WR R1; Number of elements
+RD #100
+WR R2; ADRESS OF CURRENT ELEMENT
+WR R3; MIN ELEMENT
+RD R1                                         
+JZ 24 ; TO END
+RD R0
+ADD #1
+WR R0; INDEX + 1
+RD R1
+SUB #1
+WR R1; N - 1
+RD @R2+
+SUB @R3
+JNS 7
+RD R2
+SUB #1
+WR R3
+RD R0
+WR R4
+JMP 7
+RD R4
+OUT
+HLT

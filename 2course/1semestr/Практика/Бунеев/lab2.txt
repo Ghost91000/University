@@ -1,0 +1,17 @@
+IN
+WR 200          ; WR TO MEMORY
+SUB #11
+JNS 17          ; TO HLT
+RD 200
+JS 17           ;
+RD 200
+MUL #2
+WR R0           ; 2X
+RD 200
+ADD #20
+WR R1           ; X + 20
+SUB R0
+WR R2
+MUL R2          ; (X + 20 - 2X)^2
+OUT
+HLT
