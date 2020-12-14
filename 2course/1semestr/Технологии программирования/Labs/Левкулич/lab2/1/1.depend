@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599731911 source:r:\ИС2-191-ОБ\Рыченков\Технологии программирования\lab2\1\main.cpp
+	<cmath>
+	<iostream>
+
