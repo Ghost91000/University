@@ -1,0 +1,5 @@
+IN
+WR 11
+ADD 11
+WR @11
+JMP 2

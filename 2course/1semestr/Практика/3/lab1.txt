@@ -1,0 +1,5 @@
+IN
+ADD #16
+WR 8
+WR @8
+JS 1

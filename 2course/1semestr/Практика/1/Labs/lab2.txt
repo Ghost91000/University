@@ -1,0 +1,18 @@
+IN
+WR 100          
+SUB #13
+JNS END         
+RD 100
+SUB #2
+JS END       
+RD 100
+ADD #17
+WR R0           
+RD 100
+ADD #1
+WR R1         
+RD R0
+DIV r1         
+OUT
+END:
+HLT

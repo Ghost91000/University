@@ -1,0 +1,5 @@
+IN
+MUL #2
+WR 10
+WR @10
+JNS 1
