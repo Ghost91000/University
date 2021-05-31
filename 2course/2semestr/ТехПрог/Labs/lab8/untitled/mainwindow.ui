@@ -6,50 +6,102 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>614</width>
+    <height>379</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="tableWidget">
+   <widget class="QTableView" name="tableView">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>781</width>
-      <height>411</height>
+      <x>15</x>
+      <y>11</y>
+      <width>281</width>
+      <height>211</height>
      </rect>
     </property>
-    <property name="columnCount">
-     <number>8</number>
+   </widget>
+   <widget class="QTableView" name="tableView_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>281</width>
+      <height>211</height>
+     </rect>
     </property>
-    <column>
-     <property name="text">
-      <string>Name</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Surname</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Новый столбец</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Job</string>
-     </property>
-    </column>
-    <column/>
-    <column/>
-    <column/>
-    <column/>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти по логину</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти по имени</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>240</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>270</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти по возрасту</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -57,7 +109,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>614</width>
      <height>26</height>
     </rect>
    </property>

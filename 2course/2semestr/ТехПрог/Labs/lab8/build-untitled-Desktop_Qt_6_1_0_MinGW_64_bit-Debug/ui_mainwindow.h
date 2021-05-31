@@ -12,10 +12,12 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -24,7 +26,14 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QTableWidget *tableWidget;
+    QTableView *tableView;
+    QTableView *tableView_2;
+    QLineEdit *lineEdit;
+    QPushButton *pushButton;
+    QLineEdit *lineEdit_2;
+    QPushButton *pushButton_2;
+    QLineEdit *lineEdit_3;
+    QPushButton *pushButton_3;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -32,27 +41,37 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(800, 600);
+        MainWindow->resize(614, 379);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        tableWidget = new QTableWidget(centralwidget);
-        if (tableWidget->columnCount() < 8)
-            tableWidget->setColumnCount(8);
-        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(0, __qtablewidgetitem);
-        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
-        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(2, __qtablewidgetitem2);
-        QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
-        tableWidget->setHorizontalHeaderItem(3, __qtablewidgetitem3);
-        tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
-        tableWidget->setGeometry(QRect(10, 0, 781, 411));
-        tableWidget->setColumnCount(8);
+        tableView = new QTableView(centralwidget);
+        tableView->setObjectName(QString::fromUtf8("tableView"));
+        tableView->setGeometry(QRect(15, 11, 281, 211));
+        tableView_2 = new QTableView(centralwidget);
+        tableView_2->setObjectName(QString::fromUtf8("tableView_2"));
+        tableView_2->setGeometry(QRect(310, 10, 281, 211));
+        lineEdit = new QLineEdit(centralwidget);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setGeometry(QRect(20, 240, 141, 22));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(20, 270, 141, 28));
+        lineEdit_2 = new QLineEdit(centralwidget);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setGeometry(QRect(230, 240, 141, 22));
+        pushButton_2 = new QPushButton(centralwidget);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(230, 270, 141, 28));
+        lineEdit_3 = new QLineEdit(centralwidget);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setGeometry(QRect(450, 240, 141, 22));
+        pushButton_3 = new QPushButton(centralwidget);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        pushButton_3->setGeometry(QRect(450, 270, 141, 28));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 26));
+        menubar->setGeometry(QRect(0, 0, 614, 26));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -66,14 +85,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        QTableWidgetItem *___qtablewidgetitem = tableWidget->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
-        QTableWidgetItem *___qtablewidgetitem1 = tableWidget->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QCoreApplication::translate("MainWindow", "Surname", nullptr));
-        QTableWidgetItem *___qtablewidgetitem2 = tableWidget->horizontalHeaderItem(2);
-        ___qtablewidgetitem2->setText(QCoreApplication::translate("MainWindow", "\320\235\320\276\320\262\321\213\320\271 \321\201\321\202\320\276\320\273\320\261\320\265\321\206", nullptr));
-        QTableWidgetItem *___qtablewidgetitem3 = tableWidget->horizontalHeaderItem(3);
-        ___qtablewidgetitem3->setText(QCoreApplication::translate("MainWindow", "Job", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "\320\235\320\260\320\271\321\202\320\270 \320\277\320\276 \320\273\320\276\320\263\320\270\320\275\321\203", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "\320\235\320\260\320\271\321\202\320\270 \320\277\320\276 \320\270\320\274\320\265\320\275\320\270", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("MainWindow", "\320\235\320\260\320\271\321\202\320\270 \320\277\320\276 \320\262\320\276\320\267\321\200\320\260\321\201\321\202\321\203", nullptr));
     } // retranslateUi
 
 };
