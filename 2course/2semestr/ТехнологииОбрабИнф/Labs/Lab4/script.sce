@@ -1,5 +1,5 @@
 //Лабораторная работа №4
-gen_sample = [1 2 5]
+gen_sample = [2 4 8]
 
 gen_sample_mean = mean(gen_sample)
 gen_sample_med = median(gen_sample)
