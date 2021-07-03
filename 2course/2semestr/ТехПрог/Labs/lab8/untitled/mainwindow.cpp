@@ -9,11 +9,11 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
     q = new QSqlQuery();
 
     q->exec("CREATE TABLE base(login TEXT PRIMARY KEY, name TEXT, age INT, password TEXT);");
-    q->exec("INSERT INTO base (login, name, age, password) VALUES ('doclich','Ilya',18,'SupMate');");
-    q->exec("INSERT INTO base (login, name, age, password) VALUES ('yup','Anton',22,'SupMate');");
-    q->exec("INSERT INTO base (login, name, age, password) VALUES ('yup','Anton',22,'SupMate');");
-    q->exec("INSERT INTO base (login, name, age, password) VALUES ('yepyep','Ivan',22,'VAIT2281337');");
-    q->exec("INSERT INTO base (login, name, age, password) VALUES ('skrskr','Danila',20,'9990080201011');");
+    q->exec("INSERT INTO base (login, name, age, password) VALUES ('Ghost91000','vlad',19,'qwerty');");
+    q->exec("INSERT INTO base (login, name, age, password) VALUES ('Olega','Oleg',30,'123456');");
+    q->exec("INSERT INTO base (login, name, age, password) VALUES ('qwerty','igor',23,'0000000');");
+    q->exec("INSERT INTO base (login, name, age, password) VALUES ('vanya','Ivan',27,'ytrewq');");
+    q->exec("INSERT INTO base (login, name, age, password) VALUES ('ku','Danila',29,'zxcvb');");
 
 
     modelReq = new QSqlTableModel(this,db);
