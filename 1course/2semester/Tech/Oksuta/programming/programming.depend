@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1583951953 source:d:\work\cprogramming\programming\main.cpp
-	<iostream>
-	<clocale>
-	<math.h>
-	<string>
-
